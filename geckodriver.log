@@ -1,0 +1,343 @@
+1537705940447	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1537705940547	geckodriver	INFO	Listening on 127.0.0.1:50545
+1537705943455	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\owner\\AppData\\Local\\Temp\\rust_mozprofile.fnTs1KMvaQkR"
+1537705946902	Marionette	INFO	Listening on port 50554
+1537705947289	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537705947330	Marionette	DEBUG	[6442450945] Frame script loaded
+1537705947331	Marionette	DEBUG	[6442450945] Frame script registered
+1537705947353	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537705948883	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1537705951624	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/main/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
+1537705954791	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1537705955449	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/main/
+1537705955648	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1537705955809	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537705956158	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/main/
+1537705957480	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/main/
+1537705957482	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/main/
+1537705958015	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1537705958435	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/main/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
+1537705959724	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/main/
+1537705959804	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/main/
+1537705961049	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/main/
+1537705961051	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/main/
+1537705961870	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1537705961871	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1537705961872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1537705961872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1537705962070	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/good/?idx=105851
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
+1537705963963	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1537705964321	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/good/?idx=105851
+[Child 13112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13112, Chrome_Child1537706122640	Marionette	INFO	Stopped listening on port 50554
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+NFO	Stopped listening on port 50272
+[GPU 18092, Chrome_ChildThread] WARNING: pipe err
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1537705792238	Marionette	DEBUG	[2147483654] Frame script loaded
+1537705792378	Marionette	DEBUG	[2147483654] Frame script registered
+[Child 3436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3436, [Child 17992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1799*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1537705793963	Marionette	INFO	Stopped listening on port 50129
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+.19, line 87: ReferenceError: event is not defined
+JavaScript error: https://www.waug.com/js/common.js?ver=2.0.19, line 87: ReferenceError: event is not defined
+JavaScript error: https://www.waug.com/js/common.js?ver=2.0.19, line 87: ReferenceError: event is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
+1537515965217	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/order/info.html?order_num=d2943490b0bf9c387b926427f727617f
+1537515965624	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/order/info.html?order_num=d2943490b0bf9c387b926427f727617f
+1537515965629	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/order/info.html?order_num=d2943490b0bf9c387b926427f727617f
+1537515966077	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1537515966171	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/order/order.html?order_num=d2943490b0bf9c387b926427f727617f
+1537515966999	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/order/order.html?order_num=d2943490b0bf9c387b926427f727617f
+1537515967216	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450986
+1537515967255	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450988
+1537515967264	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515967520	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515967652	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1537515967755	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515967822	Marionette	DEBUG	[6442450997] Frame script loaded
+1537515967870	Marionette	DEBUG	[6442450997] Frame script registered
+1537515967914	Marionette	DEBUG	[6442451000] Frame script loaded
+1537515967917	Marionette	DEBUG	[6442451000] Frame script registered
+1537515968126	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
+1537515999400	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/order/success.html?order_num=d2943490b0bf9c387b926427f727617f
+1537515999826	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/order/success.html?order_num=d2943490b0bf9c387b926427f727617f
+1537515999827	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/order/success.html?order_num=d2943490b0bf9c387b926427f727617f
+1537516000522	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/my/order.html
+1537516001644	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/my/order.html
+1537516001703	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/my/order.html
+1537516002266	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/my/order.html
+1537516002266	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/my/order.html
+1537516002687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1537516002687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1537516002770	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/my/booking-detail.html?idx=713898
+1537516004077	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/my/booking-detail.html?idx=713898
+1537516004347	Marionette	DEBUG	[6442451031] Frame script loaded
+1537516004358	Marionette	DEBUG	[6442451031] Frame script registered
+1537516004593	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451029
+1537516004599	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537516004673	Marionette	DEBUG	[6442451035] Frame script loaded
+1537516004682	Marionette	DEBUG	[6442451035] Frame script registered
+1537516005463	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 26100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ip1537516026655	Marionette	INFO	Stopped listening on port 51843
+[GPU 26228, Chrome_ChildThread]
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+13, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164313, line 22: ReferenceError: event is not defined
+1537515843339	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1537515844007	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515858980	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/my/order.html
+1537515859587	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/my/order.html
+1537515859589	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/my/order.html
+1537515860514	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/my/booking-detail.html?idx=713882
+1537515861866	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451045
+1537515861924	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/my/booking-detail.html?idx=713882
+1537515862009	Marionette	DEBUG	[6442451050] Frame script loaded
+1537515862030	Marionette	DEBUG	[6442451050] Frame script registered
+1537515862148	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451048
+1537515862257	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515862379	Marionette	DEBUG	[6442451054] Frame script loaded
+1537515862396	Marionette	DEBUG	[6442451054] Frame script registered
+1537515863037	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515863154	Marionette	DEBUG	[6442451059] Frame script loaded
+1537515863182	Marionette	DEBUG	[6442451059] Frame script registered
+1537515863953	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515864186	Marionette	DEBUG	[6442451063] Frame script loaded
+1537515864202	Marionette	DEBUG	[6442451063] Frame script registered
+1537515864828	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515864878	Marionette	DEBUG	[6442451067] Frame script loaded
+1537515864898	Marionette	DEBUG	[6442451067] Frame script registered
+1537515865545	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515865645	Marionette	DEBUG	[6442451071] Frame script loaded
+1537515865661	Marionette	DEBUG	[6442451071] Frame script registered
+1537515866515	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515866857	Marionette	DEBUG	[6442451075] Frame script loaded
+1537515866903	Marionette	DEBUG	[6442451075] Frame script registered
+1537515867657	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515867732	Marionette	DEBUG	[6442451079] Frame script loaded
+1537515867762	Marionette	DEBUG	[6442451079] Frame script registered
+1537515868419	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515868657	Marionette	DEBUG	[6442451083] Frame script loaded
+1537515868695	Marionette	DEBUG	[6442451083] Frame script registered
+1537515869459	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537515869569	Marionette	DEBUG	[6442451087] Frame script loaded
+1537515869623	Marionette	DEBUG	[6442451087] Frame script registered
+1537515870234	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 23128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 23128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 23128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 23128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1537515928289	Marionette	INFO	Stopped listening on port 51610
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "Error while calling actor 'pagestyle's method 'getUsedFontFaces'" "node is null"
+console.error: "getUsedFontFaces@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:291:11\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+console.error: "Could not get the list of font families" "Protocol error (unknownError): node is null"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+console.error: "Error while calling actor 'pagestyle's method 'getComputed'" "node is null"
+console.error: "getComputed@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:227:5\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+console.error: "Protocol error (unknownError): node is null"
+console.error: "Error while calling actor 'pagestyle's method 'getUsedFontFaces'" "node is null"
+console.error: "getUsedFontFaces@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:291:11\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+console.error: "Could not get the list of font families" "Protocol error (unknownError): node is null"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+console.error: "Error while calling actor 'pagestyle's method 'getUsedFontFaces'" "node is null"
+console.error: "getUsedFontFaces@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:291:11\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+console.error: "Could not get the list of font families" "Protocol error (unknownError): node is null"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1537514924286	Marionette	DEBUG	[6442451116] Frame script loaded
+1537514924302	Marionette	DEBUG	[6442451116] Frame script registered
+1537514925611	Marionette	DEBUG	[6442451120] Frame script loaded
+1537514925632	Marionette	DEBUG	[6442451120] Frame script registered
+1537514927134	Marionette	DEBUG	[6442451124] Frame script loaded
+1537514927145	Marionette	DEBUG	[6442451124] Frame script registered
+1537514927237	Marionette	DEBUG	[2147483652] Frame script loaded
+1537514927299	Marionette	DEBUG	[2147483652] Frame script registered
+[Child 4684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4684, Chrome_ChildT1537514930900	Marionette	DEBUG	[6442451128] Frame script loaded
+1537514930914	Marionette	DEBUG	[6442451128] Frame script registered
+1537514932287	Marionette	DEBUG	[6442451132] Frame script loaded
+1537514932301	Marionette	DEBUG	[6442451132] Frame script registered
+1537514932446	Marionette	DEBUG	[8589934593] Frame script loaded
+1537514932468	Marionette	DEBUG	[8589934593] Frame script registered
+[Child 12304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1537514940781	Marionette	DEBUG	[6442451136] Frame script loaded
+1537514940796	Marionette	DEBUG	[6442451136] Frame script registered
+1537514941836	Marionette	DEBUG	[6442451140] Frame script loaded
+1537514941853	Marionette	DEBUG	[6442451140] Frame script registered
+1537514942816	Marionette	DEBUG	[6442451144] Frame script loaded
+1537514942837	Marionette	DEBUG	[6442451144] Frame script registered
+1537514943679	Marionette	DEBUG	[6442451148] Frame script loaded
+1537514943720	Marionette	DEBUG	[6442451148] Frame script registered
+1537514944573	Marionette	DEBUG	[6442451152] Frame script loaded
+1537514944608	Marionette	DEBUG	[6442451152] Frame script registered
+[Parent 25552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 25552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 25552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c[hromium/src/chrome/common/ipc_channel_win.cc, line 346C
+hild 3060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1537514988282	Marionette	INFO	Stopped listening on port 50273
+[GPU 22324, Chrome_ChildThread] WA
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
