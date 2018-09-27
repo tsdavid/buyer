@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -19,17 +20,18 @@ def accounts():
 
 
 ###company & condition
-companies = ['myreal' , 'waug']
-items_region = ['hongkong' , 'singapore']
-transaction_mode = ['normal', 'except']
+def question():
+    companies = ['myreal' , 'waug']
+    items_region = ['hongkong' , 'singapore']
+    transaction_mode = ['normal', 'except']
 
-ch_company = input("choose the company code ; 1 = myreal , 2 = waug")
-ch_item_region = input("choose region of citems ; 1 = hongkong , 2 = singapore")
-ch_trans_mode = input("choose trans mode ; 1 = normal , 2 = except")
+    ch_company = input("choose the company code ; 1 = myreal , 2 = waug")
+    ch_item_region = input("choose region of citems ; 1 = hongkong , 2 = singapore")
+    ch_trans_mode = input("choose trans mode ; 1 = normal , 2 = except")
 
-ch_company = companies[int(ch_company)-1]
-ch_item_region = items_region[int(ch_item_region)-1]
-ch_trans_mode = transaction_mode[int(ch_trans_mode)-1]
+    ch_company = companies[int(ch_company)-1]
+    ch_item_region = items_region[int(ch_item_region)-1]
+    ch_trans_mode = transaction_mode[int(ch_trans_mode)-1]
 
 
 #####

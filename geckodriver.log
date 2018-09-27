@@ -1,129 +1,151 @@
-1537705940447	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
-1537705940547	geckodriver	INFO	Listening on 127.0.0.1:50545
-1537705943455	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\owner\\AppData\\Local\\Temp\\rust_mozprofile.fnTs1KMvaQkR"
-1537705946902	Marionette	INFO	Listening on port 50554
-1537705947289	Marionette	WARN	TLS certificate errors will be ignored for this session
-1537705947330	Marionette	DEBUG	[6442450945] Frame script loaded
-1537705947331	Marionette	DEBUG	[6442450945] Frame script registered
-1537705947353	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
-1537705948883	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
-1537705951624	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/main/
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
-1537705954791	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
-1537705955449	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/main/
-1537705955648	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
-1537705955809	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1537705956158	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/main/
-1537705957480	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/main/
-1537705957482	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/main/
-1537705958015	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
-1537705958435	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/main/
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
-1537705959724	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/main/
-1537705959804	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/main/
-1537705961049	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/main/
-1537705961051	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/main/
-1537705961870	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
-1537705961871	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
-1537705961872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
-1537705961872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
-1537705962070	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/good/?idx=105851
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
-1537705963963	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
-1537705964321	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/good/?idx=105851
-[Child 13112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 13112, Chrome_Child1537706122640	Marionette	INFO	Stopped listening on port 50554
+1538048803195	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1538048803305	geckodriver	INFO	Listening on 127.0.0.1:51251
+1538048806235	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\owner\\AppData\\Local\\Temp\\rust_mozprofile.NEBC0aBHaO8f"
+1538048809654	Marionette	INFO	Listening on port 51259
+1538048810070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538048810117	Marionette	DEBUG	[6442450945] Frame script loaded
+1538048810118	Marionette	DEBUG	[6442450945] Frame script registered
+1538048810140	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538048810889	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538048811990	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538048813782	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538048814242	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538048814777	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538048815544	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538048815546	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538048816323	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538048816393	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538048817620	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538048817665	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538048818034	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538048818037	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538048819238	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538048819238	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1538048819239	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1538048819239	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1538048819367	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/offers/15441
+1538048820322	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/offers/15441
+1538048820660	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048821203	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1538048821332	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048821816	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048822167	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048822502	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048822834	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048822904	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/offers/15441
+1538048823339	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/offers/15441
+1538048823343	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/offers/15441
+1538048823838	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1538048823839	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1538048823839	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1538048823901	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/offers/15441/reservations/new?authenticity_token=3c0Jq4wyFeGG3rTLQ4FaIve9Ru2F%2BI32dFWbnolVswroRfT ... ice_set%5Bbegin_at%5D=2018-09-30&choice_set%5Bchoices%5D%5B%5D%5Bkey%5D=107243&choice_set%5Bchoices%5D%5B%5D%5Btravelers%5D=2
+1538048824664	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/offers/15441/reservations/new?authenticity_token=3c0Jq4wyFeGG3rTLQ4FaIve9Ru2F%2BI32dFWbnolVswroRfT ... ice_set%5Bbegin_at%5D=2018-09-30&choice_set%5Bchoices%5D%5B%5D%5Bkey%5D=107243&choice_set%5Bchoices%5D%5B%5D%5Btravelers%5D=2
+1538048824957	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1538048825127	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048825205	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1538048825397	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048825899	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048826168	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048826458	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048826750	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048827035	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048827285	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048827351	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/offers/15441/reservations/new?authenticity_token=3c0Jq4wyFeGG3rTLQ4FaIve9Ru2F%2BI32dFWbnolVswroRfT ... ice_set%5Bbegin_at%5D=2018-09-30&choice_set%5Bchoices%5D%5B%5D%5Bkey%5D=107243&choice_set%5Bchoices%5D%5B%5D%5Btravelers%5D=2
+1538048828196	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/offers/15441/reservations/new?authenticity_token=3c0Jq4wyFeGG3rTLQ4FaIve9Ru2F%2BI32dFWbnolVswroRfT ... ice_set%5Bbegin_at%5D=2018-09-30&choice_set%5Bchoices%5D%5B%5D%5Bkey%5D=107243&choice_set%5Bchoices%5D%5B%5D%5Btravelers%5D=2
+1538048828199	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/offers/15441/reservations/new?authenticity_token=3c0Jq4wyFeGG3rTLQ4FaIve9Ru2F%2BI32dFWbnolVswroRfT ... ice_set%5Bbegin_at%5D=2018-09-30&choice_set%5Bchoices%5D%5B%5D%5Bkey%5D=107243&choice_set%5Bchoices%5D%5B%5D%5Btravelers%5D=2
+1538048828605	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/offers/15441/reservations/1931748/payment
+1538048828615	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450984
+1538048828616	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1538048828890	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/offers/15441/reservations/1931748/payment
+1538048855278	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048855626	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538048869022	Marionette	DEBUG	[6442451029] Frame script loaded
+1538048869052	Marionette	DEBUG	[2147483652] Frame script loaded
+1538048869082	Marionette	DEBUG	[6442451029] Frame script registered
+1538048869083	Marionette	DEBUG	[2147483652] Frame script registered
+1538048869885	Marionette	DEBUG	[8589934593] Frame script loaded
+1538048869887	Marionette	DEBUG	[8589934593] Frame script registered
+[Child 23424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/[Child 9036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 903[Child 14184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538048881349	Marionette	INFO	Stopped listening on port 51259
+[GPU 11888, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+/ipc_channel_win.cc, line 346
+[Child 10092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/1538048763375	Marionette	INFO	Stopped listening on port 50896
+[GPU 9200, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+ script loaded
+1538048620105	Marionette	DEBUG	[6442451023] Frame script registered
+1538048620350	Marionette	DEBUG	[6442451026] Frame script loaded
+1538048620362	Marionette	DEBUG	[6442451026] Frame script registered
+1538048620862	Marionette	DEBUG	[6442451030] Frame script loaded
+1538048620872	Marionette	DEBUG	[6442451030] Frame script registered
+[Parent 12732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18672, Chrome_ChildThread] WAR1538048641936	Marionette	INFO	Stopped listening on port 50549
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 
 KLIB_SelfTest return : KLR_OK
-NFO	Stopped listening on port 50272
-[GPU 18092, Chrome_ChildThread] WARNING: pipe err
+nnot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+elfTest return : KLR_OK
+KLIB_SelfTest return : KLR_OK
+	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538047357159	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/1931608
+1538047357268	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1538047357997	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/1931608
+1538047358271	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538047358432	Marionette	DEBUG	[6442451026] Frame script loaded
+1538047358463	Marionette	DEBUG	[6442451026] Frame script registered
+1538047358493	Marionette	DEBUG	[6442451029] Frame script loaded
+1538047358504	Marionette	DEBUG	[6442451029] Frame script registered
+1538047358606	Marionette	DEBUG	[6442451031] Frame script loaded
+1538047358618	Marionette	DEBUG	[6442451031] Frame script registered
+1538047359098	Marionette	DEBUG	[6442451037] Frame script loaded
+1538047359099	Marionette	DEBUG	[6442451037] Frame script registered
+1538047359523	Marionette	DEBUG	[6442451040] Frame script loaded
+1538047359553	Marionette	DEBUG	[6442451040] Frame script registered
+[Parent 23936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25136, Chrome_ChildThread] WARNING: pipe error:[ Ch109: file z:/build/build/src/iiplc/chromium/d 2700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2700, Chrome_1538047377812	Marionette	INFO	Stopped listening on port 63593
+
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 
 KLIB_SelfTest return : KLR_OK
-chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1537705792238	Marionette	DEBUG	[2147483654] Frame script loaded
-1537705792378	Marionette	DEBUG	[2147483654] Frame script registered
-[Child 3436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 3436, [Child 17992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1799*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-1537705793963	Marionette	INFO	Stopped listening on port 50129
+:SendAndWait] Error: Channel error: cannot send/recv
 
+
+KLIB_SelfTest return : KLR_OK
+ageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+6790	Marionette	DEBUG	[10737418241] Frame script registered
+[Child 20284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20284, Ch[Child 15644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14748, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21148, Chrome_C1538045502148	Marionette	INFO	Stopped listening on port 58399
+[GPU 13320, Chrome_Chil
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 
 KLIB_SelfTest return : KLR_OK
-.19, line 87: ReferenceError: event is not defined
-JavaScript error: https://www.waug.com/js/common.js?ver=2.0.19, line 87: ReferenceError: event is not defined
-JavaScript error: https://www.waug.com/js/common.js?ver=2.0.19, line 87: ReferenceError: event is not defined
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-826288939, line 74: unreachable code after return statement
-1537515965217	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/order/info.html?order_num=d2943490b0bf9c387b926427f727617f
-1537515965624	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/order/info.html?order_num=d2943490b0bf9c387b926427f727617f
-1537515965629	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/order/info.html?order_num=d2943490b0bf9c387b926427f727617f
-1537515966077	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
-1537515966171	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/order/order.html?order_num=d2943490b0bf9c387b926427f727617f
-1537515966999	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/order/order.html?order_num=d2943490b0bf9c387b926427f727617f
-1537515967216	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450986
-1537515967255	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450988
-1537515967264	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1537515967520	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1537515967652	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
-1537515967755	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1537515967822	Marionette	DEBUG	[6442450997] Frame script loaded
-1537515967870	Marionette	DEBUG	[6442450997] Frame script registered
-1537515967914	Marionette	DEBUG	[6442451000] Frame script loaded
-1537515967917	Marionette	DEBUG	[6442451000] Frame script registered
-1537515968126	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-JavaScript error: https://checkout.teledit.com/creditcard_simple/common/js/common.js?nocache=20180921164608, line 22: ReferenceError: event is not defined
-1537515999400	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/order/success.html?order_num=d2943490b0bf9c387b926427f727617f
-1537515999826	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/order/success.html?order_num=d2943490b0bf9c387b926427f727617f
-1537515999827	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/order/success.html?order_num=d2943490b0bf9c387b926427f727617f
-1537516000522	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/my/order.html
-1537516001644	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/my/order.html
-1537516001703	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.waug.com/my/order.html
-1537516002266	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.waug.com/my/order.html
-1537516002266	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.waug.com/my/order.html
-1537516002687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
-1537516002687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
-1537516002770	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.waug.com/my/booking-detail.html?idx=713898
-1537516004077	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.waug.com/my/booking-detail.html?idx=713898
-1537516004347	Marionette	DEBUG	[6442451031] Frame script loaded
-1537516004358	Marionette	DEBUG	[6442451031] Frame script registered
-1537516004593	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451029
-1537516004599	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1537516004673	Marionette	DEBUG	[6442451035] Frame script loaded
-1537516004682	Marionette	DEBUG	[6442451035] Frame script registered
-1537516005463	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-[Child 26100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 26128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 26128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ip1537516026655	Marionette	INFO	Stopped listening on port 51843
+r: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ip1537516026655	Marionette	INFO	Stopped listening on port 51843
 [GPU 26228, Chrome_ChildThread]
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 

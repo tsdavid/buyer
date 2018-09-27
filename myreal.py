@@ -8,6 +8,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.common.touch_actions import TouchActions
 from selenium.webdriver.common.action_chains import ActionChains
+import accounts_vars as ac_var
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -26,19 +27,6 @@ myreal_ITEMURL = ["https://www.myrealtrip.com/offers/15441","https://www.myrealt
 #ipack_HOMEPAGE = "http://ipacktour.com/user/login"
 #ipack_ITEMURL = "http://ipacktour.com/product/detail/view/2018042600002"
 
-number = 3
-USER_LIST = ['esther_01','Collins','Bell','Shaw','Patel']
-USER = USER_LIST[number]
-USERID = USER+"@poongsung.me"
-PASSWORD = "tongsung8116!"
-
-#reserve user info
-F_NAME = USER
-L_NAME = USER[0]
-FULL_NAME = F_NAME + "." +L_NAME
-BIRTH_DATE = "881225"
-PHONE_NB = "01072518121"
-
 
 def login(driver):
     WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, "//*/input[@name='user[email]']"))).send_keys(
@@ -53,29 +41,33 @@ def login(driver):
 
 def checkOpt(driver):
     #상품날짜 설정 버튼 클릭
-    WebDriverWait(driver, 1000).until(EC.presence_of_element_located(
+    WebDriverWait(driver, 100).until(EC.presence_of_element_located(
         (By.XPATH, "//*[@id='calendarBtn']"))).click()
     #driver.find_element_by_xpath("//*[@id='calendarBtn']").click()
     #상품날짜 선택
-    WebDriverWait(driver, 1000).until(EC.presence_of_element_located(
-        (By.LINK_TEXT, "24"))).click()
+    WebDriverWait(driver, 100).until(EC.presence_of_element_located(
+        (By.LINK_TEXT, "30"))).click()
 
 
 
     # 상품옵션 설정 버튼 클릭
    #driver.implicitly_wait(1000)
-    WebDriverWait(driver, 100000).until(EC.presence_of_element_located(
+    WebDriverWait(driver, 100).until(EC.presence_of_element_located(
         (By.XPATH, "/html/body/main/section/div[2]/div[1]/div[2]/div[3]/div/div[1]/div/div[2]/div/div[3]/div[1]"))).click()
     #driver.find_element_by_class_name("peoplepicker-container").click()
 
-
-
+def checkOpt_qut(driver):
+    #driver.implicitly_wait(1000)
     # 상품 수량 체크하기
-    WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
-        (By.CSS_SELECTOR, ".option-box:nth-child(2) .btn.bootstrap-touchspin-up"))).click()
-    driver.find_element_by_css_selector(".option-box:nth-child(2) .btn.bootstrap-touchspin-up").click()
-    driver.find_element_by_css_selector(".option-box:nth-child(2) .btn.bootstrap-touchspin-up").click()
-    driver.find_element_by_css_selector(".option-box:nth-child(2) .btn.bootstrap-touchspin-up").click()
+    driver.set_script_timeout(30)
+    WebDriverWait(driver, 100).until(EC.presence_of_element_located(
+        (By.XPATH, "/html/body/main/section/div[2]/div[1]/div[2]/div[3]/div/div[1]/div/div[2]/div/div[4]/div/div/div[2]/div/div/div/span[4]/button"))).click()
+    i = 0
+    while i < quantity:
+        driver.find_element_by_css_selector(".option-box:nth-child(2) .btn.bootstrap-touchspin-up").click()
+        i += 1
+    #driver.find_element_by_css_selector(".option-box:nth-child(2) .btn.bootstrap-touchspin-up").click()
+    #driver.find_element_by_css_selector(".option-box:nth-child(2) .btn.bootstrap-touchspin-up").click()
 
 
     #driver.find_element_by_css_selector(".input-group-btn:last-child").click()
@@ -86,16 +78,17 @@ def checkOpt(driver):
 
 
     #금액 조회하기
-    WebDriverWait(driver, 200000).until(EC.presence_of_element_located((
+    driver.set_script_timeout(2)
+    WebDriverWait(driver, 100).until(EC.presence_of_element_located((
         By.XPATH, "//*[@id='checkPriceBtn']/button"
     ))).click()
     #driver.find_element_by_xpath("//*[@id='checkPriceBtn']/button").click()
 
-
-
+def pressbtn(driver):
     #구매하기 버튼
-    driver.implicitly_wait(100000000)
-    WebDriverWait(driver, 3000000000).until(EC.presence_of_element_located(
+    driver.implicitly_wait(100)
+    driver.set_script_timeout(30)
+    WebDriverWait(driver, 300).until(EC.presence_of_element_located(
         (By.XPATH, "/html/body/main/section/div[2]/div[1]/div[2]/div[3]/div/div[2]/form/div[2]/div/div[2]/button"))).click()
 
 
@@ -133,9 +126,12 @@ def order(driver):
     driver.find_element_by_xpath("//*[@id='reservation-btn']").click()
 
 
-    #티켓 받는 곳까지 가는 기다림
-    #마이페이지 클릭
-    WebDriverWait(driver, 1000).until(EC.presence_of_element_located(
+
+
+def ticket(driver):
+    # 티켓 받는 곳까지 가는 기다림
+    # 마이페이지 클릭
+    WebDriverWait(driver, 1000000).until(EC.presence_of_element_located(
         (By.XPATH,
          "/html/body/div[3]/header/nav/div[1]/div[3]/ul/li[4]/a/img"))).click()
     WebDriverWait(driver, 10).until(EC.presence_of_element_located(
@@ -144,33 +140,45 @@ def order(driver):
     WebDriverWait(driver, 10).until(EC.presence_of_element_located(
         (By.XPATH,
          "/html/body/main/div/div[4]/div[2]/div[2]/div/a"))).click()
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located(
+
+
+def clk_ticket(driver):
+    #티켓 버튼 클릭
+    driver.implicitly_wait(100000000)
+    WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
         (By.XPATH,
          "//*[@id='vouchersBtn']"))).click()
+    driver.set_script_timeout(10)
+    #티켓 출력
 
-def ticket(driver):
-    #티켓정보로 넘어가기
-    WebDriverWait(driver, 100).until(EC.presence_of_element_located(
-        (By.XPATH,
-         "/html/body/main/div/div[4]/div/div[2]/div/a"))).click()
+    for n in range(quantity + 1):
+        tck_path = ["/html/body/main/div/div[4]/div[3]/div/div[1]/div[3]/div[1]/a",
+                    "/html/body/main/div/div[4]/div[3]/div/div[1]/div[3]/div[2]/a",
+                    "/html/body/main/div/div[4]/div[3]/div/div[1]/div[3]/div[3]/a",
+                    "/html/body/main/div/div[4]/div[3]/div/div[1]/div[3]/div[4]/a"]
+        driver.find_element_by_xpath(tck_path[n]).click()
 
-    #티켓 클릭
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-        (By.XPATH,
-         "/html/body/main/div/div[4]/div[3]/div/div[1]/div[3]/div[1]/a"))).click()
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-        (By.XPATH,
-         "/html/body/main/div/div[4]/div[3]/div/div[1]/div[3]/div[2]/a"))).click()
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-        (By.XPATH,
-         "/html/body/main/div/div[4]/div[3]/div/div[1]/div[3]/div[3]/a"))).click()
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-        (By.XPATH,
-         "/html/body/main/div/div[4]/div[3]/div/div[1]/div[3]/div[4]/a"))).click()
 
+    #구매한 시간 구하기
+    buy_time = driver.find_element_by_xpath("/html/body/main/div/div[4]/div[4]/div/div[2]/div/div[1]/div[1]/div[2]")
+    print(buy_time)
 
 if __name__ == "__main__":
     #driver = webdriver.Chrome('\Users\owner\macro\chromedriver')
+    quantity = input("how many tickets do you want to buy? :")
+    quantity = quantity - 1
+    number = input("what account do you want to buy : ")
+    USER = ac_var.myreal_users[number]
+    USERID = USER + "@poongsung.me"
+    PASSWORD = "tongsung8116!"
+
+    # reserve user info
+    F_NAME = USER
+    L_NAME = USER[0]
+    FULL_NAME = F_NAME + "." + L_NAME
+    BIRTH_DATE = "881225"
+    PHONE_NB = "01072518121"
+
     driver = webdriver.Firefox()
     driver.wait = WebDriverWait(driver, 2)
     driver.implicitly_wait(10)
@@ -181,10 +189,15 @@ if __name__ == "__main__":
     login(driver)
     driver.get(myreal_ITEMURL[0])
     checkOpt(driver)
+    driver.set_script_timeout(10)
+    checkOpt_qut(driver)
     #driver.wait
     #checkout(driver)
+    driver.set_script_timeout(10)
+    pressbtn(driver)
     order(driver)
     ticket(driver)
+    clk_ticket(driver)
     #i = 1
     #while(checkStock(driver, i)):
     #    i += 1
