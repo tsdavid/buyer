@@ -21,7 +21,7 @@ LOOP = 3 # -1 for infinite
 
 #ipacktour : http://ipacktour.com
 myreal_HOMEPAGE = "https://www.myrealtrip.com/users/sign_in"
-myreal_ITEMURL = ["https://www.myrealtrip.com/offers/15441","https://www.myrealtrip.com/offers/15441"]
+myreal_ITEMURL = ["https://www.myrealtrip.com/offers/15441","https://www.myrealtrip.com/offers/21988"]
 
 #waug : https://www.waug.com/main/
 #ipack_HOMEPAGE = "http://ipacktour.com/user/login"
@@ -46,7 +46,7 @@ def checkOpt(driver):
     #driver.find_element_by_xpath("//*[@id='calendarBtn']").click()
     #상품날짜 선택
     WebDriverWait(driver, 100).until(EC.presence_of_element_located(
-        (By.LINK_TEXT, "30"))).click()
+        (By.LINK_TEXT, str(rsv_date)))).click()
 
 
 
@@ -59,8 +59,8 @@ def checkOpt(driver):
 def checkOpt_qut(driver):
     #driver.implicitly_wait(1000)
     # 상품 수량 체크하기
-    driver.set_script_timeout(30)
-    WebDriverWait(driver, 100).until(EC.presence_of_element_located(
+    driver.set_script_timeout(70)
+    WebDriverWait(driver, 1000).until(EC.presence_of_element_located(
         (By.XPATH, "/html/body/main/section/div[2]/div[1]/div[2]/div[3]/div/div[1]/div/div[2]/div/div[4]/div/div/div[2]/div/div/div/span[4]/button"))).click()
     i = 0
     while i < quantity:
@@ -86,8 +86,8 @@ def checkOpt_qut(driver):
 
 def pressbtn(driver):
     #구매하기 버튼
-    driver.implicitly_wait(100)
-    driver.set_script_timeout(30)
+    driver.implicitly_wait(10)
+    driver.set_script_timeout(70)
     WebDriverWait(driver, 300).until(EC.presence_of_element_located(
         (By.XPATH, "/html/body/main/section/div[2]/div[1]/div[2]/div[3]/div/div[2]/form/div[2]/div/div[2]/button"))).click()
 
@@ -109,7 +109,7 @@ def checkout(driver):
     #driver.find_element_by_css_selector(".reserve-btn .button:nth-child(1)").click()
 
 def order(driver):
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH,"/html/body/main/section/div/form/div[2]/div[1]/div[2]/div/div[2]/div[2]/input"))).send_keys(L_NAME)
+    WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH,"/html/body/main/section/div/form/div[2]/div[1]/div[2]/div/div[2]/div[2]/input"))).send_keys(L_NAME)
     driver.find_element_by_xpath("/html/body/main/section/div/form/div[2]/div[1]/div[2]/div/div[3]/div[2]/input").send_keys(F_NAME)
     driver.find_element_by_xpath("/html/body/main/section/div/form/div[2]/div[1]/div[2]/div/div[4]/div[2]/input").send_keys(FULL_NAME)
     driver.find_element_by_xpath("//*[@id='input-icc']").click()
@@ -137,18 +137,19 @@ def ticket(driver):
     WebDriverWait(driver, 10).until(EC.presence_of_element_located(
         (By.XPATH,
          "/html/body/div[3]/header/nav/div[1]/div[3]/div/ul/li[2]/div[2]"))).click()
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-        (By.XPATH,
-         "/html/body/main/div/div[4]/div[2]/div[2]/div/a"))).click()
+   # WebDriverWait(driver, 10).until(EC.presence_of_element_located(
+     #   (By.XPATH,
+     #    "/html/body/main/div/div[4]/div[2]/div[2]/div/a"))).click()
 
 
 def clk_ticket(driver):
     #티켓 버튼 클릭
-    driver.implicitly_wait(100000000)
+    #driver.implicitly_wait(100000000)
+    driver.set_script_timeout(10)
     WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
         (By.XPATH,
          "//*[@id='vouchersBtn']"))).click()
-    driver.set_script_timeout(10)
+    #driver.set_script_timeout(10)
     #티켓 출력
 
     for n in range(quantity + 1):
@@ -165,12 +166,14 @@ def clk_ticket(driver):
 
 if __name__ == "__main__":
     #driver = webdriver.Chrome('\Users\owner\macro\chromedriver')
-    quantity = input("how many tickets do you want to buy? :")
-    quantity = quantity - 1
+    #quantity = input("how many tickets do you want to buy? :")
+    quantity = 4 - 1
     number = input("what account do you want to buy : ")
     USER = ac_var.myreal_users[number]
-    USERID = USER + "@poongsung.me"
+    USER_DM = ac_var.myreal_user_domain[number]
+    USERID = USER + USER_DM
     PASSWORD = "tongsung8116!"
+    rsv_date = 29
 
     # reserve user info
     F_NAME = USER
@@ -187,7 +190,7 @@ if __name__ == "__main__":
 
 
     login(driver)
-    driver.get(myreal_ITEMURL[0])
+    driver.get(myreal_ITEMURL[1])
     checkOpt(driver)
     driver.set_script_timeout(10)
     checkOpt_qut(driver)
