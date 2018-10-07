@@ -1,6 +1,5 @@
 #-*- coding: utf-8 -*-
 import accounts_vars as ac_var
-
 #common things
 companies = ['myreal' , 'waug']
 items_region = ['hongkong' , 'singapore']
@@ -41,3 +40,5 @@ F_NAME = USER
 L_NAME = USER[0]
 MD_PHONE = "7251"
 LT_PHONE = "8121"
+
+

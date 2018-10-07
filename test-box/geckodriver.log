@@ -1,135 +1,552 @@
-1538286134891	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
-1538286135046	geckodriver	INFO	Listening on 127.0.0.1:52270
-1538286137958	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\owner\\AppData\\Local\\Temp\\rust_mozprofile.QsztAEN3HSgP"
-1538286144109	Marionette	INFO	Listening on port 52282
-1538286144597	Marionette	WARN	TLS certificate errors will be ignored for this session
-1538286144866	Marionette	DEBUG	[6442450945] Frame script loaded
-1538286144879	Marionette	DEBUG	[6442450945] Frame script registered
-[Child 1048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1538286148462	Marionette	INFO	Stopped listening on port 52282
+1538550406303	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1538550406445	geckodriver	INFO	Listening on 127.0.0.1:53497
+1538550409314	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\owner\\AppData\\Local\\Temp\\rust_mozprofile.fshrcXiaoR7a"
+1538550415481	Marionette	INFO	Listening on port 53513
+1538550415903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538550416155	Marionette	DEBUG	[6442450945] Frame script loaded
+1538550416156	Marionette	DEBUG	[6442450945] Frame script registered
+1538550416311	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538550417170	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538550418642	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550421448	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538550422012	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 6968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_wi[Child 2604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538551516199	Marionette	INFO	Stopped listening on port 52771
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 
 KLIB_SelfTest return : KLR_OK
-ette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
-1538285657513	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
-1538285658491	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
-1538285659374	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
-1538285659376	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
-1538285660878	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
-1538285661034	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
-1538285663077	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
-1538285663118	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
-1538285663577	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
-1538285663579	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
-1538285664555	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
-1538285664560	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
-1538285664560	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
-1538285664561	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
-1538285664732	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
-1538285666002	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
-[Parent 17932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1538288179126	Marionette	INFO	Stopped listening on port 50610
+ notification outer-window-destroyed for 6442450959
+1538550431468	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1538550431469	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1538550431469	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1538550431519	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550433050	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550433326	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450972
+1538550433477	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550433563	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/rese[Child 16720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16720, Chrome_Child[Child 8596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8596, Chrome_ChildThread] WARNING: pipe 1538551510844	Marionette	INFO	Stopped listening on port 51973
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 
 KLIB_SelfTest return : KLR_OK
-pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 2412[Parent 13400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1538288179162	Marionette	INFO	Stopped listening on port 51176
+2450945] Received observer notification outer-window-destroyed for 6442450975
+1538550439576	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550439618	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550440744	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550440749	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550442688	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1538550442689	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450984
+1538550442690	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450982
+1538550442690	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450986
+1538550442919	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550446252	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+[Child 6932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6932, Chrome_Ch[Child 15516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15516, Chrome_ChildThread] WARNING: pipe 1538551515042	Marionette	INFO	Stopped listening on port 52958
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 
 KLIB_SelfTest return : KLR_OK
-AndWait] Error: Channel error: cannot send/recv
 
+1538550448624	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1538550448624	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1538550448625	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1538550448743	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550450361	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550450424	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550451301	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1538550451668	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550451669	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550452908	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550453459	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451004
+1538550453460	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451007
+1538550454841	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550456089	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550457080	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550457082	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550459766	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550460631	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1538550462563	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550462630	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550463094	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451031
+1538550463319	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550463324	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550464363	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451023
+1538550464364	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451028
+1538550464365	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451026
+1538550464512	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550466608	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550466980	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451038
+1538550467109	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550467218	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550467982	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations1538551511801	Marionette	DEBUG	[2147483652] Frame script loaded
+1538551511934	Marionette	DEBUG	[2147483652] Frame script registered
+1538551512002	Marionette	DEBUG	[2147483654] Frame script loaded
+1538551512063	Marionette	DEBUG	[2147483654] Frame script registered
+[Child 6252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[CIPDL protocol error: Handler returned error code!
 
-KLIB_SelfTest return : KLR_OK
-:SendAndWait] Error: Channel error: cannot send/recv
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-tError) Channel closing: too late to send/recv, messages will be lost
+IPDL protocol error: Handler returned error code!
 
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-###!!! [Child][MessageChannel] Error: (msgtype=0x2E00B1,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+IPDL protocol error: Handler returned error code!
 
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-###!!! [Child][MessageChannel] Error: (msgtype=0x2E00B1,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+IPDL protocol error: Handler returned error code!
 
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-###!!! [Child][MessageChannel] Error: (msgtype=0x2E00B1,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+IPDL protocol error: Handler returned error code!
 
-1538230984128	Marionette	INFO	Stopped listening on port 51067
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1538551514999	Marionette	INFO	Stopped listening on port 52209
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 
 KLIB_SelfTest return : KLR_OK
-M6lkrhrYX5JypRgMVg4XD2N ... ice_set%5Bbegin_at%5D=2018-09-28&choice_set%5Bchoices%5D%5B%5D%5Bkey%5D=133569&choice_set%5Bchoices%5D%5B%5D%5Btravelers%5D=4
-1538112699327	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
-1538112699328	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
-1538112699328	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
-1538112699330	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
-1538112699477	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
-[Child 18588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+nette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550483795	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550484938	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550484939	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550487172	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550487594	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451072
+1538550487595	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451078
+1538550489401	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550490788	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550491903	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550491905	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550493294	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550493861	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451081
+1538550495429	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550495491	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550495932	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550495939	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550496898	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550497181	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451091
+1538550497193	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451096
+1538550497194	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451094
+1538550497194	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451098
+1538550498065	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550498409	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451105
+1538550498522	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550498694	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550499446	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550499448	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550500782	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550501549	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451102
+1538550501551	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451108
+1538550503432	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550503465	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550504282	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451118
+1538550504513	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550504515	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550506478	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451111
+1538550506478	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451116
+1538550506479	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451114
+1538550506569	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550510514	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550511136	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550511555	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550511566	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550512421	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550512666	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451122
+1538550512666	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451127
+1538550512667	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451132
+1538550512667	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451125
+1538550512668	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451129
+1538550513700	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550513738	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550514387	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451141
+1538550514773	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550514779	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550515822	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451136
+1538550515823	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451139
+1538550515924	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550518241	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550519456	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550520992	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550521005	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550521794	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550522424	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451145
+1538550524591	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550524640	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550525091	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550525093	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550526277	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451155
+1538550526278	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451163
+1538550526278	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451161
+1538550526439	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550527753	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550528026	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451169
+1538550528185	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550528276	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550529043	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550529047	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550530792	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550531580	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451166
+1538550531580	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451172
+1538550534222	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550534257	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550534873	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451183
+1538550535365	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550535370	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550537216	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451176
+1538550537217	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451181
+1538550537224	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451179
+1538550537523	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550541332	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451187
+1538550542148	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550542686	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550543297	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550543326	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550544969	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451190
+1538550544971	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451195
+1538550544976	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451198
+1538550544979	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451193
+1538550545269	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550549050	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550549100	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550550102	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550550104	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550551821	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451201
+1538550551822	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451207
+1538550552165	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550554789	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550556475	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550557789	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550557791	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550559054	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451212
+1538550559318	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550561410	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550561677	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript error: , line 0: uncaught exception: [object Object]
+1538550562257	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550562260	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550563411	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451220
+1538550563562	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550565024	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550565406	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451226
+1538550565446	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451228
+1538550565480	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550565630	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550566521	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550566523	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550567667	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550568696	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451223
+1538550572231	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550572344	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550573016	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451243
+1538550573374	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550573376	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550574610	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451233
+1538550574611	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451238
+1538550574612	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451241
+1538550574612	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451236
+1538550575065	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550577981	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550578300	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550578699	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451255
+1538550578791	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550578801	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550580219	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550580936	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451247
+1538550580937	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451252
+1538550580946	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451250
+1538550582568	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550582600	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550583470	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451264
+1538550584049	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550584051	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550586496	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550587370	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451259
+1538550587371	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451262
+1538550588887	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550589888	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550590920	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550590922	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550592503	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550593156	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451268
+1538550594824	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550594873	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550595256	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451286
+1538550595323	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550595325	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550596711	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550597072	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451278
+1538550597073	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451283
+1538550597074	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451281
+1538550598440	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550598874	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451293
+1538550598961	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550599075	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550600124	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550600126	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550601592	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451290
+1538550601593	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451295
+1538550601857	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550604730	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550604788	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550605565	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451307
+1538550606027	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550606028	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550608377	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451299
+1538550608378	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451304
+1538550608379	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451302
+1538550608709	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550611363	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550612010	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript error: , line 0: uncaught exception: [object Object]
+1538550612729	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550612734	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550613350	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451311
+1538550613350	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451316
+1538550613351	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451314
+1538550613493	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550615245	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550615281	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550616299	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550616301	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550617048	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451320
+1538550617049	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451326
+1538550617218	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550619701	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550621031	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550622484	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550622486	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550623621	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451329
+1538550623762	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550626269	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550626303	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550626704	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451346
+1538550626729	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550626732	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550627817	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550628169	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451339
+1538550628169	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451342
+1538550628170	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451344
+1538550629072	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550629353	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451353
+1538550629490	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550629653	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550630337	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550630339	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550631861	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550632440	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451350
+1538550632440	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451356
+1538550633785	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550633825	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550634608	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451367
+1538550635086	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550635089	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550637060	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550637750	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451360
+1538550637752	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451365
+1538550637756	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451363
+1538550639644	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550639880	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550640261	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550640267	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550641526	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451371
+1538550641527	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451376
+1538550641528	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451374
+1538550641529	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451379
+1538550641612	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550642553	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550642581	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550643673	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550643675	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550644898	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550645261	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451382
+1538550645262	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451385
+1538550645262	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451387
+1538550646879	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550648008	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550649137	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550649141	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550650711	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550651662	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451390
+1538550653503	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550653562	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550653881	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451407
+1538550654084	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550654095	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550655711	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451400
+1538550655711	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451403
+1538550655711	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451405
+1538550655900	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550657885	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550658559	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451414
+1538550658633	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550658916	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550660099	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550660101	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550662085	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550663001	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451411
+1538550663002	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451416
+1538550665254	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550665329	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550666848	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451429
+1538550667041	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550667042	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550668725	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451421
+1538550668740	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451426
+1538550668741	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451424
+1538550669082	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550673591	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550674057	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550674539	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550674542	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550675576	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451433
+1538550675578	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451438
+1538550675579	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451436
+1538550675579	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451440
+1538550675759	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550677805	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451444
+1538550678241	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550678274	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550679277	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550679278	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550681575	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550682116	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451447
+1538550682117	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451450
+1538550683897	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550684878	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550686429	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550686430	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550688141	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451453
+1538550688280	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550690808	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550690846	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550691312	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451470
+1538550691361	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550691365	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550692319	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550692754	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451463
+1538550692755	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451468
+1538550692768	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451466
+1538550693935	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550694382	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451477
+1538550694446	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550694536	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550695283	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550695285	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550696438	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550697289	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451474
+1538550697289	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451479
+1538550697923	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550698154	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript error: , line 0: uncaught exception: [object Object]
+1538550699156	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550699157	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550700471	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451483
+1538550700867	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550703333	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550703924	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550704390	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550704393	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550705631	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550706059	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451486
+1538550706627	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550706771	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550707724	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550707725	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550709224	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550711003	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550712278	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550713614	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550713628	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550715008	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550715992	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451491
+1538550718314	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451501
+1538550719047	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550719124	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550719650	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550719660	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550720946	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550721648	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451504
+1538550721648	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451509
+1538550721649	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451507
+1538550722884	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550724108	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538550724595	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550725402	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451517
+1538550725887	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550725901	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/traveler/reservations/ongoing
+1538550729137	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550729878	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451514
+1538550729881	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451512
+1538550731521	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550731674	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550732490	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451529
+1538550732723	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550732729	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550733867	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451521
+1538550733868	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451526
+1538550733868	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451524
+1538550734167	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/
+1538550738155	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/
+1538550738346	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/
+1538550738734	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/
+1538550738739	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/
+1538550739682	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550740051	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451533
+1538550740052	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451541
+1538550740052	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451539
+1538550741157	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+1538550741191	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.myrealtrip.com/users/sign_in
+1538550741960	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451550
+1538550742277	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.myrealtrip.com/users/sign_in
+1538550742283	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.myrealtrip.com/users/sign_in
+1538550743341	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451545
+1538550743342	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451548
+1538550743468	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.myrealtrip.com/users/sign_in
+1538550745757	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.myrealtrip.com/users/sign_in
+IPDL protocol error: Handler returned error code!
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[Child 18588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1538112699894	Marionette	INFO	Stopped listening on port 62112
+[Child 1292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/bui1538551517864	Marionette	INFO	Stopped listening on port 53513
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 

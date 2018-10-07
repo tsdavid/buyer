@@ -8,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
-import test as test
+import for_loop as test
 # python파일의 위치
 #BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
